@@ -1,0 +1,55 @@
+
+input[type=message], input[type=email], input[type=text], textarea {
+  width: 100%;
+  background: #fff;
+  color: #fff;
+  font: inherit;
+  box-shadow: 0 6px 10px 0 rgba(0, 0, 0 , .1);
+  border: 0;
+  outline: 0;
+  padding: 22px 18px;
+  margin:2px
+  }
+  
+  
+  button[type=submit] {
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    letter-spacing: 2px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #000;
+    cursor: pointer;
+    border: 3px solid;
+    padding: 0.25em 0.5em;
+    box-shadow: 1px 1px 0px 0px, 2px 2px 0px 0px, 3px 3px 0px 0px, 4px 4px 0px 0px, 5px 5px 0px 0px;
+    position: relative;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+  }
+  
+
+
+  button[type=submit]:active {
+  box-shadow: 0px 0px 0px 0px;
+  top: 5px;
+  left: 5px;
+}
+
+@media (min-width: 768px) {
+  button[type=submit] {
+    padding: 0.25em 0.75em;
+  }
+}
+  
+  
+  button[type=submit]:hover {
+    background-color: #E75480;
+  }
+  
+  
+  /* Hide Streamlit Branding */
+  #MainMenu {visibility: hidden;}
+  footer {visibility: hidden;}
+  header {visibility: hidden;}
